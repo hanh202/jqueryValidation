@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./myStyle.css">
+
+</head>
+
+<body>
+    <div class="mess-error "><span class="text-danger"></span></div>
+
+    <div class="container border w-50 p-5">
+        <form action="">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Name/Username</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" name="txtName">
+            </div>
+            <div class="form-group">
+                <label for="txtPass">Password</label>
+                <input type="text" class="form-control" name="txtPass" id="txtPass">
+            </div>
+            <div class="form-group">
+                <label for="txtConfirmPass">Nhap lai pasword</label>
+                <input type="text" class="form-control" id="txtConfirmPass" name="txtConfirmPass">
+            </div>
+            <div class="form-group">
+                <label for="checkDate">Date Form</label>
+                <input type="text" class="form-control myDate" name="checkDate">
+            </div>
+            <div class="form-group">
+                <label for="checkDateTo">To</label>
+                <input type="text" class="form-control myDate" name="checkDateTo">
+            </div>
+            <div class="form-group">
+                <label for="txtEmail">Email</label>
+                <input type="email" class="form-control" name="txtEmail">
+            </div>
+            <div class="form-group">
+                <label for="txtUrl">Url</label>
+                <input type="url" class="form-control" name="txtUrl">
+            </div>
+            <input type="submit" value="dang ky" id="btnSubmit">
+        </form>
+    </div>
+
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/cleave.js/dist/cleave.min.js"></script>
+
+    <script src="./node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="./myJS.js"></script>
+</body>
+
+</html>
